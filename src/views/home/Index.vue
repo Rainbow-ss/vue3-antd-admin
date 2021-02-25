@@ -1,11 +1,9 @@
 <template>
-    <div>首页</div>
+  <div>首页</div>
 </template>
 <script>
 export default {
-    name: "Layout"
-}
+  name: "Index"
+};
 </script>
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss"></style>

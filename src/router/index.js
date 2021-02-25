@@ -1,27 +1,27 @@
 import { createRouter, createWebHashHistory } from "vue-router";
+
 const routes = [
-  // 登录 
+  // 登录
   {
     path: "/",
-    name: "Login",
+    name: "Login", //路径映射路由
     hidden: true,
     meta: {
       title: "登录"
     },
-    component: () => import("../views/acount/Login.vue")
+    component: () => import("../views/account/Login.vue")
   },
-  // 注册 
+  // 注册
   {
     path: "/register",
     name: "Register",
     hidden: true,
     meta: {
-      title: "注册",
-      hidden: true,
+      title: "注册"
     },
-    component: () => import("../views/acount/Register.vue")
+    component: () => import("../views/account/Register.vue")
   },
-  // 忘记密码 
+  // 忘记密码
   {
     path: "/forget",
     name: "Forget",
@@ -29,7 +29,7 @@ const routes = [
     meta: {
       title: "忘记密码"
     },
-    component: () => import("../views/acount/Forget.vue")
+    component: () => import("../views/account/Forget.vue")
   },
   // 管理后台 - 首页
   {
@@ -76,7 +76,7 @@ const routes = [
           title: "用户管理"
         },
         component: () => import("../views/admin/User.vue")
-      },
+      }
     ]
   },
   {
@@ -84,7 +84,7 @@ const routes = [
     name: "News",
     meta: {
       title: "信息管理",
-      icon: "informtion"
+      icon: "information"
     },
     component: () => import("../views/layout/Index.vue"),
     children: []

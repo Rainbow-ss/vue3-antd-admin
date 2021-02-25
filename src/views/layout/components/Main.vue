@@ -1,11 +1,9 @@
 <template>
-    <router-view />
+  <router-view />
 </template>
 <script>
 export default {
-    name: "Aside"
-}
+  name: "Main"
+};
 </script>
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss"></style>

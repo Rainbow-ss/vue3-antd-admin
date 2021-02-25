@@ -1,15 +1,9 @@
 <template>
-    <div>信息管理</div>
+  <div>信息管理</div>
 </template>
-
 <script>
-import { reactive, ref, onMounted, watch } from '@vue/composition-api';
 export default {
-   name: "NewsIndex",
-   components: {},
-   props: {},
-   
-}
+  name: "NewsIndex"
+};
 </script>
-<style lang='scss' scoped>
-</style>
+<style lang="scss"></style>

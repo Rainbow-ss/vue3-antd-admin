@@ -1,13 +1,9 @@
 <template>
-    <div>用户管理</div>
+  <div>用户管理</div>
 </template>
-
 <script>
 export default {
-   name: "",
-   components: {},
-   props: {}
-}
+  name: "User"
+};
 </script>
-<style lang='scss' scoped>
-</style>
+<style lang="scss"></style>

@@ -1,12 +1,18 @@
 @import "normalize.scss";
 @import "icon.scss";
-@import "antdesignvue.scss";
-
+// ul li
+ul li {
+  list-style: none;
+}
 // color
-.color-white { color: white; }
-
+.color-white {
+    color: #fff;
+}
 // font-size
-.fs-12 { font-size: 12px; }
-
+.fs-12 {
+    font-size: 12px;
+}
 // text-align
-.text-center { text-align: center; }
+.text-center {
+    text-align: center;
+}

@@ -1,13 +1,9 @@
 <template>
-    <div>角色管1111理</div>
+  <div>角色管理</div>
 </template>
-
 <script>
 export default {
-   name: "",
-   components: {},
-   props: {}
-}
+  name: "Role"
+};
 </script>
-<style lang='scss' scoped>
-</style>
+<style lang="scss"></style>
